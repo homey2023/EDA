@@ -47,3 +47,44 @@ def roadname2address(df, column_name):
 
 def lotnumber2address(df, column_name):
     pass
+
+def coords2address(coords_list):
+
+    addr = pd.DataFrame(
+        columns = [
+            "lamp_addr",
+            "depth1", 
+            "depth2", 
+            "main_addr_no",
+            "sub_addr_no", 
+            "latitude",
+            "longitude",
+        ]
+    )
+
+    for i, res in enumerate(coords_list):
+        x = float(res[0])
+        y = float(res[1])
+       
+        response = api.geo_coord2address(x, y)
+        
+        if response['meta']['total_count'] == 1:
+            lamp_addr = response['documents'][0]['address']["address_name"]
+            depth1 = response['documents'][0]['address']["region_1depth_name"]
+            depth2 = response['documents'][0]['address']["region_2depth_name"]
+            main_addr_no = response['documents'][0]['address']['main_address_no']
+            sub_addr_no = response['documents'][0]['address']['sub_address_no']
+        
+        row = {
+            "lamp_addr" : lamp_addr, 
+            "depth1" : depth1, 
+            "depth2" : depth2, 
+            "main_addr_no" : main_addr_no,
+            "sub_addr_no" : sub_addr_no, 
+            "latitude": y,
+            "longitude": x,
+        }
+        
+        addr = addr.append(row, ignore_index = True)
+        
+    return addr
