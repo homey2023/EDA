@@ -1,20 +1,40 @@
 # EDA
 ![image](https://user-images.githubusercontent.com/74184274/223899516-cf97ffce-da1c-485a-b7b6-a562ea49663c.png)
 
+![image](https://user-images.githubusercontent.com/90082373/224503414-04e194d4-12b2-4715-8796-02db127a835b.png)
 ## 가로등 현황
+### 데이터셋 2개
 
-WIP
+#### 1. 서울특별시 관악구_가로등 현황_20220809.csv
+<img width="443" alt="화면 캡처 2023-03-12 020701" src="https://user-images.githubusercontent.com/90082373/224501419-171d4996-0a36-496c-9280-3b1baf6805be.png">
+
++ 이거는 도로명주소에 대한 위치정보가 필요할 것 같아요. 
+
++ 정보 신청 필요(https://business.juso.go.kr/addrlink/elctrnMapProvd/geoDBDwldList.do#this)
+
+#### 2. 서울특별시_가로등 위치 정보_20221108.csv
++ 자료가 빈약해서 위에 자료 사용해야 할 듯.
+<img width="616" alt="02" src="https://user-images.githubusercontent.com/90082373/224501976-daf53fcd-ebfd-4fe2-a4f6-b657a0016b03.png">
+
+![image](https://user-images.githubusercontent.com/90082373/224502578-c0f7de91-c7bb-4f43-8db9-e3e16e0f6379.png)
+
+![image](https://user-images.githubusercontent.com/90082373/224502523-f4f8d20f-e1aa-4888-ab0f-073dad29024c.png)
+
+![image](https://user-images.githubusercontent.com/90082373/224502546-033cb7af-14ea-4d17-a571-51de0ca1ec3e.png)
 
 ## 성범죄자 주소
 
-WIP
+<img width="630" alt="image" src="https://user-images.githubusercontent.com/90082373/224503650-144db2d9-1d41-4441-9daa-3df43370bd3f.png">
 
-
++ 해당 정보를 활용할 수 있는 지에 대해 확실하게 조사해야 할 필요 있음.(https://www.sexoffender.go.kr/m3s1.nsc)
 
 ## CCTV 현황
+### 서울시 안심이 CCTV 연계 현황.csv
+<img width="1110" alt="image" src="https://user-images.githubusercontent.com/90082373/224502657-4730f233-b5cd-4817-91e9-b9d711beed98.png">
 
-WIP
+![image](https://user-images.githubusercontent.com/90082373/224502705-33b1fba4-c1d9-419f-a1cf-98655441abb0.png)
 
+![image](https://user-images.githubusercontent.com/90082373/224502723-af876af5-ca8c-4257-b392-0bc14d8989d0.png)
 
 ## 경찰서
 ![image](https://user-images.githubusercontent.com/74184274/223898551-c36863b2-83b4-4897-aeda-243c222f070c.png)
