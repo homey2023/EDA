@@ -2,6 +2,9 @@
 ![image](https://user-images.githubusercontent.com/74184274/223899516-cf97ffce-da1c-485a-b7b6-a562ea49663c.png)
 
 ![image](https://user-images.githubusercontent.com/90082373/224503414-04e194d4-12b2-4715-8796-02db127a835b.png)
+
+![image](https://user-images.githubusercontent.com/90082373/226164758-97ab2cba-b97c-4a1e-a1c8-fd0e440a81c5.png)
+
 ## 가로등 현황
 ### 데이터셋 2개
 
@@ -27,6 +30,10 @@
 <img width="630" alt="image" src="https://user-images.githubusercontent.com/90082373/224503650-144db2d9-1d41-4441-9daa-3df43370bd3f.png">
 
 + 해당 정보를 활용할 수 있는 지에 대해 확실하게 조사해야 할 필요 있음.(https://www.sexoffender.go.kr/m3s1.nsc)
+
+## 서울시 유흥주점영업 인허가 정보
+
+## 안전비상벨 위치 정보
 
 ## CCTV 현황
 ### 서울시 안심이 CCTV 연계 현황.csv
